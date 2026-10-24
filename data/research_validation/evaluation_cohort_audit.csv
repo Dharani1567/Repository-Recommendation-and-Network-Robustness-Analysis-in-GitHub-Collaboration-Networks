@@ -1,0 +1,19 @@
+strategy,strategy_key,fraction_removed,num_contributors_removed,original_eval_users,surviving_eval_users,removed_eval_users,pct_eval_users_surviving
+Degree Centrality,degree,0.01,48,562,515,47,91.64
+Degree Centrality,degree,0.05,238,562,325,237,57.83
+Degree Centrality,degree,0.1,476,562,87,475,15.48
+Betweenness Centrality,betweenness,0.01,48,562,515,47,91.64
+Betweenness Centrality,betweenness,0.05,238,562,325,237,57.83
+Betweenness Centrality,betweenness,0.1,476,562,87,475,15.48
+PageRank,pagerank,0.01,48,562,533,29,94.84
+PageRank,pagerank,0.05,238,562,460,102,81.85
+PageRank,pagerank,0.1,476,562,379,183,67.44
+K-Core Centrality,k_core,0.01,48,562,515,47,91.64
+K-Core Centrality,k_core,0.05,238,562,325,237,57.83
+K-Core Centrality,k_core,0.1,476,562,87,475,15.48
+Weighted Degree,weighted_degree,0.01,48,562,535,27,95.2
+Weighted Degree,weighted_degree,0.05,238,562,459,103,81.67
+Weighted Degree,weighted_degree,0.1,476,562,397,165,70.64
+Random Removal (Mean),random_mean,0.01,48,562,556,6,98.93
+Random Removal (Mean),random_mean,0.05,238,562,535,27,95.2
+Random Removal (Mean),random_mean,0.1,476,562,500,62,88.97

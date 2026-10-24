@@ -1,0 +1,17 @@
+{
+  "total_nodes": 4965,
+  "contributor_nodes": 4759,
+  "repository_nodes": 206,
+  "total_edges": 5758,
+  "duplicate_nodes_detected": 0,
+  "duplicate_edges_detected": 0,
+  "invalid_contributor_ids": 0,
+  "invalid_repo_ids": 0,
+  "unexpected_node_types": 0,
+  "is_strictly_bipartite": true,
+  "validation_status": "PASSED",
+  "validation_messages": [
+    "Filtered 50 bot accounts from graph nodes and incident edges.",
+    "Strict bipartite graph conditions satisfied: no intra-set edges exist."
+  ]
+}

@@ -1,0 +1,20 @@
+strategy,fraction,removal_pct,removed_count,remaining_contributors,remaining_repositories,remaining_edges,connected_components_count,gcc_nodes,gcc_fraction,network_density,fragmentation_index,isolated_repositories_count,isolated_contributors_count,avg_shortest_path_length_gcc,strategy_key
+Baseline (No Removal),0.0,0.0,0,4759,206,5758,14.0,4584,0.9233,0.005873,0.0767,0,0,7.7485,
+Degree Centrality,0.01,1.0,48,4711,206,5428,16.0,4508,0.9168,0.005593,0.0832,0,0,8.9618,degree
+Degree Centrality,0.05,5.0,238,4521,206,4845,29.0,3877,0.8202,0.005202,0.1798,0,0,15.0354,degree
+Degree Centrality,0.1,10.0,476,4283,206,4369,132.0,1040,0.2317,0.004952,0.7683,1,0,13.7762,degree
+Betweenness Centrality,0.01,1.0,48,4711,206,5492,25.0,4112,0.8363,0.005659,0.1637,0,0,9.3101,betweenness
+Betweenness Centrality,0.05,5.0,238,4521,206,4908,71.0,2499,0.5287,0.00527,0.4713,0,0,10.8567,betweenness
+Betweenness Centrality,0.1,10.0,476,4283,206,4377,171.0,185,0.0412,0.004961,0.9588,0,0,7.884,betweenness
+PageRank,0.01,1.0,48,4711,206,5632,16.0,4526,0.9205,0.005803,0.0795,0,0,7.8319,pagerank
+PageRank,0.05,5.0,238,4521,206,5273,20.0,4184,0.8851,0.005662,0.1149,0,0,7.9968,pagerank
+PageRank,0.1,10.0,476,4283,206,4849,25.0,3839,0.8552,0.005496,0.1448,0,0,8.6749,pagerank
+K-Core Centrality,0.01,1.0,48,4711,206,5445,15.0,4526,0.9205,0.005611,0.0795,0,0,8.9551,k_core
+K-Core Centrality,0.05,5.0,238,4521,206,4849,53.0,2808,0.594,0.005207,0.406,0,0,11.2341,k_core
+K-Core Centrality,0.1,10.0,476,4283,206,4369,164.0,166,0.037,0.004952,0.963,0,0,7.7007,k_core
+Weighted Degree,0.01,1.0,48,4711,206,5635,15.0,4538,0.9229,0.005806,0.0771,0,0,7.8733,weighted_degree
+Weighted Degree,0.05,5.0,238,4521,206,5277,20.0,4173,0.8828,0.005666,0.1172,0,0,8.036,weighted_degree
+Weighted Degree,0.1,10.0,476,4283,206,4892,22.0,3975,0.8855,0.005545,0.1145,0,0,8.8329,weighted_degree
+Random Removal (Mean),0.01,1.0,48,4711,206,5704,14.0,4540,0.9234,0.005878,0.0766,0,0,7.7487,random_mean
+Random Removal (Mean),0.05,5.0,238,4521,206,5469,14.7,4345,0.9193,0.005872,0.0807,0,0,7.8261,random_mean
+Random Removal (Mean),0.1,10.0,476,4283,206,5184,15.7,4098,0.913,0.005875,0.087,0,0,7.8953,random_mean

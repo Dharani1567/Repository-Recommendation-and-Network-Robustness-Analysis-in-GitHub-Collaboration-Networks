@@ -1,0 +1,58 @@
+{
+  "dataset_name": "Expanded Dataset",
+  "counts": {
+    "repositories": 206,
+    "unique_repositories": 206,
+    "contributors": 4809,
+    "unique_contributors": 4809,
+    "contributions": 6018,
+    "unique_contributions": 6018
+  },
+  "quality": {
+    "duplicate_repositories": 0,
+    "duplicate_contributors": 0,
+    "duplicate_contributions": 0,
+    "missing_repo_ids": 0,
+    "missing_contributor_ids": 0,
+    "missing_edge_ids": 0
+  },
+  "distributions": {
+    "contributors_per_repo": {
+      "min": 1,
+      "max": 30,
+      "mean": 29.21359223300971,
+      "median": 30.0
+    },
+    "repositories_per_contributor": {
+      "min": 1,
+      "max": 112,
+      "mean": 1.2514036182158452,
+      "single_repo_contributors": 4237,
+      "multi_repo_contributors": 572,
+      "multi_repo_percentage": 11.89
+    }
+  },
+  "network_topology": {
+    "total_nodes": 5015,
+    "contributor_nodes": 4809,
+    "repository_nodes": 206,
+    "bipartite_edges": 6018,
+    "connected_components_count": 7,
+    "largest_connected_component_nodes": 4828,
+    "largest_connected_component_fraction": 0.9627,
+    "component_sizes_top_5": [
+      4828,
+      61,
+      31,
+      31,
+      31
+    ],
+    "repository_projection_edges": 7355,
+    "repository_projection_components": 7
+  },
+  "suitability": {
+    "sufficient_for_community_detection": true,
+    "sufficient_for_recommendation": true,
+    "verdict_reasons": []
+  }
+}

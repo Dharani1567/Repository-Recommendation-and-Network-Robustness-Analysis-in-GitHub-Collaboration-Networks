@@ -1,0 +1,10 @@
+strategy,fraction,removal_pct,removed_count,random_seed,remaining_contributors,remaining_repositories,remaining_edges,connected_components_count,gcc_nodes,gcc_fraction,network_density,fragmentation_index,isolated_repositories_count,isolated_contributors_count,avg_shortest_path_length_gcc
+Random Removal,0.01,1.0,48,42,4711,206,5705,14,4539,0.9231,0.005879,0.0769,0,0,7.7588
+Random Removal,0.01,1.0,48,100,4711,206,5707,14,4537,0.9227,0.005881,0.0773,0,0,7.7424
+Random Removal,0.01,1.0,48,2024,4711,206,5700,14,4545,0.9243,0.005873,0.0757,0,0,7.7449
+Random Removal,0.05,5.0,238,42,4521,206,5476,16,4301,0.9099,0.00588,0.0901,0,0,7.7719
+Random Removal,0.05,5.0,238,100,4521,206,5468,14,4369,0.9243,0.005871,0.0757,0,0,7.8539
+Random Removal,0.05,5.0,238,2024,4521,206,5463,14,4367,0.9238,0.005866,0.0762,0,0,7.8525
+Random Removal,0.1,10.0,476,42,4283,206,5167,16,4084,0.9098,0.005856,0.0902,0,0,7.94
+Random Removal,0.1,10.0,476,100,4283,206,5180,16,4080,0.9089,0.005871,0.0911,1,0,7.9782
+Random Removal,0.1,10.0,476,2024,4283,206,5205,15,4131,0.9202,0.005899,0.0798,0,0,7.7678

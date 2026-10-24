@@ -1,0 +1,119 @@
+{
+  "projection_summary": {
+    "total_repositories": 206,
+    "projection_edges": 1353,
+    "isolated_repositories_count": 12,
+    "connected_repositories_count": 194,
+    "isolated_repositories": [
+      {
+        "node_id": "R_126487536",
+        "repo_id": 126487536,
+        "full_name": "capitalone/datacompy"
+      },
+      {
+        "node_id": "R_131619646",
+        "repo_id": 131619646,
+        "full_name": "dagster-io/dagster"
+      },
+      {
+        "node_id": "R_132975485",
+        "repo_id": 132975485,
+        "full_name": "cleanlab/cleanlab"
+      },
+      {
+        "node_id": "R_208728772",
+        "repo_id": 208728772,
+        "full_name": "milvus-io/milvus"
+      },
+      {
+        "node_id": "R_268163609",
+        "repo_id": 268163609,
+        "full_name": "qdrant/qdrant"
+      },
+      {
+        "node_id": "R_28409905",
+        "repo_id": 28409905,
+        "full_name": "frictionlessdata/frictionless-py"
+      },
+      {
+        "node_id": "R_287642401",
+        "repo_id": 287642401,
+        "full_name": "whylabs/whylogs"
+      },
+      {
+        "node_id": "R_415969774",
+        "repo_id": 415969774,
+        "full_name": "deepchecks/deepchecks"
+      },
+      {
+        "node_id": "R_416157128",
+        "repo_id": 416157128,
+        "full_name": "mosaicml/composer"
+      },
+      {
+        "node_id": "R_546206616",
+        "repo_id": 546206616,
+        "full_name": "chroma-core/chroma"
+      },
+      {
+        "node_id": "R_601538369",
+        "repo_id": 601538369,
+        "full_name": "meta-llama/llama"
+      },
+      {
+        "node_id": "R_620549478",
+        "repo_id": 620549478,
+        "full_name": "weasyprint/weasyprint"
+      }
+    ]
+  },
+  "louvain": {
+    "algorithm": "Louvain",
+    "num_communities": 9,
+    "modularity_score": 0.466972,
+    "community_sizes": [
+      49,
+      45,
+      26,
+      23,
+      23,
+      14,
+      10,
+      2,
+      2
+    ],
+    "num_singletons": 0,
+    "num_isolated": 12,
+    "stability_ari_5seeds": 0.7677,
+    "stability_nmi_5seeds": 0.8448
+  },
+  "leiden": {
+    "algorithm": "Leiden",
+    "num_communities": 10,
+    "modularity_score": 0.464347,
+    "community_sizes": [
+      52,
+      37,
+      30,
+      24,
+      21,
+      14,
+      8,
+      4,
+      2,
+      2
+    ],
+    "num_singletons": 0,
+    "num_isolated": 12,
+    "stability_ari_5seeds": 0.7826,
+    "stability_nmi_5seeds": 0.8616
+  },
+  "cross_algorithm_agreement": {
+    "adjusted_rand_index": 0.6531,
+    "normalized_mutual_info": 0.7985
+  },
+  "recommendation_choice": {
+    "recommended_algorithm": "Leiden",
+    "reason": "Leiden strictly guarantees well-connected communities without disconnected artifacts and offers superior partition stability across multiple random initializations (ARI = 0.7826 vs 0.7677)."
+  }
+}

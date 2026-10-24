@@ -1,0 +1,584 @@
+{
+  "dataset_summary": {
+    "total_contributors": 4759,
+    "multi_repo_contributors": 562,
+    "single_repo_contributors": 4197,
+    "cross_community_contributors": 203,
+    "cross_community_percentage": 4.27,
+    "consensus_top5pct_contributors_count": 46
+  },
+  "spearman_rank_correlations": {
+    "degree": {
+      "degree": 1.0,
+      "weighted_degree": 0.2967,
+      "betweenness_centrality": 0.9978,
+      "pagerank": 0.3197,
+      "k_core": 0.9895
+    },
+    "weighted_degree": {
+      "degree": 0.2967,
+      "weighted_degree": 1.0,
+      "betweenness_centrality": 0.2957,
+      "pagerank": 0.8446,
+      "k_core": 0.2923
+    },
+    "betweenness_centrality": {
+      "degree": 0.9978,
+      "weighted_degree": 0.2957,
+      "betweenness_centrality": 1.0,
+      "pagerank": 0.3193,
+      "k_core": 0.9849
+    },
+    "pagerank": {
+      "degree": 0.3197,
+      "weighted_degree": 0.8446,
+      "betweenness_centrality": 0.3193,
+      "pagerank": 1.0,
+      "k_core": 0.3138
+    },
+    "k_core": {
+      "degree": 0.9895,
+      "weighted_degree": 0.2923,
+      "betweenness_centrality": 0.9849,
+      "pagerank": 0.3138,
+      "k_core": 1.0
+    }
+  },
+  "removal_group_sizes": {
+    "top_1_percent": 48,
+    "top_5_percent": 238,
+    "top_10_percent": 476
+  },
+  "top_20_by_measure": {
+    "degree": [
+      {
+        "contributor_id": 1324225,
+        "username": "hugovk",
+        "degree": 18
+      },
+      {
+        "contributor_id": 347634,
+        "username": "jdufresne",
+        "degree": 18
+      },
+      {
+        "contributor_id": 413772,
+        "username": "graingert",
+        "degree": 12
+      },
+      {
+        "contributor_id": 3234522,
+        "username": "DimitriPapadopoulos",
+        "degree": 12
+      },
+      {
+        "contributor_id": 327925,
+        "username": "takluyver",
+        "degree": 11
+      },
+      {
+        "contributor_id": 3709715,
+        "username": "cclauss",
+        "degree": 10
+      },
+      {
+        "contributor_id": 578543,
+        "username": "webknjaz",
+        "degree": 9
+      },
+      {
+        "contributor_id": 647359,
+        "username": "lovelydinosaur",
+        "degree": 9
+      },
+      {
+        "contributor_id": 305268,
+        "username": "msabramo",
+        "degree": 9
+      },
+      {
+        "contributor_id": 335567,
+        "username": "Carreau",
+        "degree": 8
+      },
+      {
+        "contributor_id": 58669,
+        "username": "akx",
+        "degree": 8
+      },
+      {
+        "contributor_id": 151929,
+        "username": "minrk",
+        "degree": 7
+      },
+      {
+        "contributor_id": 33491632,
+        "username": "MarcoGorelli",
+        "degree": 7
+      },
+      {
+        "contributor_id": 45380,
+        "username": "bollwyvl",
+        "degree": 7
+      },
+      {
+        "contributor_id": 1810591,
+        "username": "asottile",
+        "degree": 7
+      },
+      {
+        "contributor_id": 22633385,
+        "username": "eltociear",
+        "degree": 6
+      },
+      {
+        "contributor_id": 308610,
+        "username": "jaraco",
+        "degree": 6
+      },
+      {
+        "contributor_id": 30130371,
+        "username": "cdce8p",
+        "degree": 6
+      },
+      {
+        "contributor_id": 7396,
+        "username": "mitsuhiko",
+        "degree": 6
+      },
+      {
+        "contributor_id": 240830,
+        "username": "sigmavirus24",
+        "degree": 6
+      }
+    ],
+    "weighted_degree": [
+      {
+        "contributor_id": 17151892,
+        "username": "tensorflower-gardener",
+        "weighted_degree": 60625.0
+      },
+      {
+        "contributor_id": 3978469,
+        "username": "Mytherin",
+        "weighted_degree": 26980.0
+      },
+      {
+        "contributor_id": 34910018,
+        "username": "arcadia-devtools",
+        "weighted_degree": 14770.0
+      },
+      {
+        "contributor_id": 128223,
+        "username": "zzzeek",
+        "weighted_degree": 14580.0
+      },
+      {
+        "contributor_id": 43144185,
+        "username": "aws-sdk-python-automation",
+        "weighted_degree": 12143.0
+      },
+      {
+        "contributor_id": 491659,
+        "username": "scoder",
+        "weighted_degree": 12107.0
+      },
+      {
+        "contributor_id": 151929,
+        "username": "minrk",
+        "weighted_degree": 11722.0
+      },
+      {
+        "contributor_id": 10120821,
+        "username": "ctiller",
+        "weighted_degree": 10517.0
+      },
+      {
+        "contributor_id": 663432,
+        "username": "bdraco",
+        "weighted_degree": 10069.0
+      },
+      {
+        "contributor_id": 554369,
+        "username": "willmcgugan",
+        "weighted_degree": 10043.0
+      },
+      {
+        "contributor_id": 1444314,
+        "username": "balloob",
+        "weighted_degree": 9212.0
+      },
+      {
+        "contributor_id": 748828,
+        "username": "tk0miya",
+        "weighted_degree": 9123.0
+      },
+      {
+        "contributor_id": 308610,
+        "username": "jaraco",
+        "weighted_degree": 8555.0
+      },
+      {
+        "contributor_id": 335567,
+        "username": "Carreau",
+        "weighted_degree": 8279.0
+      },
+      {
+        "contributor_id": 1309177,
+        "username": "charliermarsh",
+        "weighted_degree": 7914.0
+      },
+      {
+        "contributor_id": 17162323,
+        "username": "Tishj",
+        "weighted_degree": 7440.0
+      },
+      {
+        "contributor_id": 327925,
+        "username": "takluyver",
+        "weighted_degree": 7429.0
+      },
+      {
+        "contributor_id": 6771947,
+        "username": "epenet",
+        "weighted_degree": 7331.0
+      },
+      {
+        "contributor_id": 77272,
+        "username": "charris",
+        "weighted_degree": 7292.0
+      },
+      {
+        "contributor_id": 90703,
+        "username": "smichr",
+        "weighted_degree": 7281.0
+      }
+    ],
+    "betweenness_centrality": [
+      {
+        "contributor_id": 58669,
+        "username": "akx",
+        "betweenness_centrality": 0.10188067651589387
+      },
+      {
+        "contributor_id": 347634,
+        "username": "jdufresne",
+        "betweenness_centrality": 0.07487494719633496
+      },
+      {
+        "contributor_id": 1324225,
+        "username": "hugovk",
+        "betweenness_centrality": 0.06458587904432161
+      },
+      {
+        "contributor_id": 17039389,
+        "username": "harupy",
+        "betweenness_centrality": 0.05297404214791805
+      },
+      {
+        "contributor_id": 3234522,
+        "username": "DimitriPapadopoulos",
+        "betweenness_centrality": 0.05108719229605342
+      },
+      {
+        "contributor_id": 413772,
+        "username": "graingert",
+        "betweenness_centrality": 0.044842518361714136
+      },
+      {
+        "contributor_id": 1721820,
+        "username": "pitrou",
+        "betweenness_centrality": 0.0440051119310229
+      },
+      {
+        "contributor_id": 33491632,
+        "username": "MarcoGorelli",
+        "betweenness_centrality": 0.04094025591507392
+      },
+      {
+        "contributor_id": 22633385,
+        "username": "eltociear",
+        "betweenness_centrality": 0.039580749705836214
+      },
+      {
+        "contributor_id": 3709715,
+        "username": "cclauss",
+        "betweenness_centrality": 0.03832612014703312
+      },
+      {
+        "contributor_id": 22925031,
+        "username": "chenmoneygithub",
+        "betweenness_centrality": 0.03139606983701957
+      },
+      {
+        "contributor_id": 2712115,
+        "username": "guilhermeleobas",
+        "betweenness_centrality": 0.031099846819153357
+      },
+      {
+        "contributor_id": 250019,
+        "username": "tarekziade",
+        "betweenness_centrality": 0.030809172268929024
+      },
+      {
+        "contributor_id": 21118851,
+        "username": "simon-mo",
+        "betweenness_centrality": 0.027359705397477802
+      },
+      {
+        "contributor_id": 305268,
+        "username": "msabramo",
+        "betweenness_centrality": 0.02695078105218232
+      },
+      {
+        "contributor_id": 30130371,
+        "username": "cdce8p",
+        "betweenness_centrality": 0.02638485130196633
+      },
+      {
+        "contributor_id": 110765,
+        "username": "mgorny",
+        "betweenness_centrality": 0.02603751666532135
+      },
+      {
+        "contributor_id": 10901756,
+        "username": "angelayi",
+        "betweenness_centrality": 0.025594191434506912
+      },
+      {
+        "contributor_id": 6035284,
+        "username": "Borda",
+        "betweenness_centrality": 0.024403404271475634
+      },
+      {
+        "contributor_id": 823911,
+        "username": "mattip",
+        "betweenness_centrality": 0.02317671966597823
+      }
+    ],
+    "pagerank": [
+      {
+        "contributor_id": 647359,
+        "username": "lovelydinosaur",
+        "pagerank": 0.004594738794652683
+      },
+      {
+        "contributor_id": 690238,
+        "username": "gaborbernat",
+        "pagerank": 0.003019920341851071
+      },
+      {
+        "contributor_id": 199429,
+        "username": "dvarrazzo",
+        "pagerank": 0.0027463109223024324
+      },
+      {
+        "contributor_id": 1242887,
+        "username": "davidism",
+        "pagerank": 0.002738265691430172
+      },
+      {
+        "contributor_id": 6088,
+        "username": "bitprophet",
+        "pagerank": 0.002664045829377212
+      },
+      {
+        "contributor_id": 1326112,
+        "username": "tiangolo",
+        "pagerank": 0.002428477935703731
+      },
+      {
+        "contributor_id": 554369,
+        "username": "willmcgugan",
+        "pagerank": 0.0023962376487808817
+      },
+      {
+        "contributor_id": 26833433,
+        "username": "glenn-jocher",
+        "pagerank": 0.002264643854245531
+      },
+      {
+        "contributor_id": 7396,
+        "username": "mitsuhiko",
+        "pagerank": 0.0021710596200996495
+      },
+      {
+        "contributor_id": 1765949,
+        "username": "maartenbreddels",
+        "pagerank": 0.0021188807142217443
+      },
+      {
+        "contributor_id": 112222186,
+        "username": "oobabooga",
+        "pagerank": 0.0021054206514917245
+      },
+      {
+        "contributor_id": 128223,
+        "username": "zzzeek",
+        "pagerank": 0.002082528635826644
+      },
+      {
+        "contributor_id": 1810591,
+        "username": "asottile",
+        "pagerank": 0.0020501992351092953
+      },
+      {
+        "contributor_id": 1167982,
+        "username": "lamiller0",
+        "pagerank": 0.002022876805462276
+      },
+      {
+        "contributor_id": 17151892,
+        "username": "tensorflower-gardener",
+        "pagerank": 0.002022484252865796
+      },
+      {
+        "contributor_id": 308610,
+        "username": "jaraco",
+        "pagerank": 0.0020061376488406998
+      },
+      {
+        "contributor_id": 241138,
+        "username": "karpathy",
+        "pagerank": 0.001988681108928657
+      },
+      {
+        "contributor_id": 2379650,
+        "username": "sloria",
+        "pagerank": 0.00195846406784496
+      },
+      {
+        "contributor_id": 932156,
+        "username": "squidfunk",
+        "pagerank": 0.001944072915379851
+      },
+      {
+        "contributor_id": 43144185,
+        "username": "aws-sdk-python-automation",
+        "pagerank": 0.0019186242810899758
+      }
+    ],
+    "k_core": [
+      {
+        "contributor_id": 347634,
+        "username": "jdufresne",
+        "k_core": 4,
+        "degree": 18
+      },
+      {
+        "contributor_id": 1324225,
+        "username": "hugovk",
+        "k_core": 4,
+        "degree": 18
+      },
+      {
+        "contributor_id": 3234522,
+        "username": "DimitriPapadopoulos",
+        "k_core": 4,
+        "degree": 12
+      },
+      {
+        "contributor_id": 413772,
+        "username": "graingert",
+        "k_core": 4,
+        "degree": 12
+      },
+      {
+        "contributor_id": 3709715,
+        "username": "cclauss",
+        "k_core": 4,
+        "degree": 10
+      },
+      {
+        "contributor_id": 305268,
+        "username": "msabramo",
+        "k_core": 4,
+        "degree": 9
+      },
+      {
+        "contributor_id": 327925,
+        "username": "takluyver",
+        "k_core": 4,
+        "degree": 11
+      },
+      {
+        "contributor_id": 578543,
+        "username": "webknjaz",
+        "k_core": 4,
+        "degree": 9
+      },
+      {
+        "contributor_id": 1810591,
+        "username": "asottile",
+        "k_core": 4,
+        "degree": 7
+      },
+      {
+        "contributor_id": 335567,
+        "username": "Carreau",
+        "k_core": 4,
+        "degree": 8
+      },
+      {
+        "contributor_id": 605277,
+        "username": "uranusjr",
+        "k_core": 4,
+        "degree": 6
+      },
+      {
+        "contributor_id": 308610,
+        "username": "jaraco",
+        "k_core": 4,
+        "degree": 6
+      },
+      {
+        "contributor_id": 45380,
+        "username": "bollwyvl",
+        "k_core": 4,
+        "degree": 7
+      },
+      {
+        "contributor_id": 240830,
+        "username": "sigmavirus24",
+        "k_core": 4,
+        "degree": 6
+      },
+      {
+        "contributor_id": 690238,
+        "username": "gaborbernat",
+        "k_core": 4,
+        "degree": 5
+      },
+      {
+        "contributor_id": 43412083,
+        "username": "tusharsadhwani",
+        "k_core": 4,
+        "degree": 6
+      },
+      {
+        "contributor_id": 442117,
+        "username": "stefanor",
+        "k_core": 4,
+        "degree": 5
+      },
+      {
+        "contributor_id": 4616906,
+        "username": "henryiii",
+        "k_core": 4,
+        "degree": 5
+      },
+      {
+        "contributor_id": 151929,
+        "username": "minrk",
+        "k_core": 4,
+        "degree": 7
+      },
+      {
+        "contributor_id": 144359,
+        "username": "birkenfeld",
+        "k_core": 4,
+        "degree": 4
+      }
+    ]
+  }
+}

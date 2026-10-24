@@ -1,0 +1,91 @@
+strategy,fraction_removed,model,original_baseline_recall10,matched_baseline_recall10,matched_baseline_bias_recall10,post_removal_recall10,true_degradation_recall10
+Degree Centrality,0.01,CollaborativeFiltering,0.379,0.3631,-0.0159,0.2957,-0.0674
+Degree Centrality,0.01,CommunityAware,0.1993,0.1981,-0.0012,0.1887,-0.0094
+Degree Centrality,0.01,Popularity,0.0302,0.033,0.0028,0.0409,0.0079
+Degree Centrality,0.01,Jaccard,0.351,0.334,-0.017,0.2821,-0.0519
+Degree Centrality,0.01,AdamicAdar,0.302,0.2893,-0.0127,0.2977,0.0084
+Degree Centrality,0.05,CollaborativeFiltering,0.379,0.3169,-0.0621,0.0,-0.3169
+Degree Centrality,0.05,CommunityAware,0.1993,0.1415,-0.0578,0.0309,-0.1106
+Degree Centrality,0.05,Popularity,0.0302,0.0369,0.0067,0.0309,-0.006
+Degree Centrality,0.05,Jaccard,0.351,0.28,-0.071,0.0,-0.28
+Degree Centrality,0.05,AdamicAdar,0.302,0.2308,-0.0712,0.0,-0.2308
+Degree Centrality,0.1,CollaborativeFiltering,0.379,0.5057,0.1267,0.0,-0.5057
+Degree Centrality,0.1,CommunityAware,0.1993,0.1839,-0.0154,0.0,-0.1839
+Degree Centrality,0.1,Popularity,0.0302,0.023,-0.0072,0.0,-0.023
+Degree Centrality,0.1,Jaccard,0.351,0.3218,-0.0292,0.0,-0.3218
+Degree Centrality,0.1,AdamicAdar,0.302,0.1724,-0.1296,0.0,-0.1724
+Betweenness Centrality,0.01,CollaborativeFiltering,0.379,0.3942,0.0152,0.3716,-0.0226
+Betweenness Centrality,0.01,CommunityAware,0.1993,0.2039,0.0046,0.2568,0.0529
+Betweenness Centrality,0.01,Popularity,0.0302,0.033,0.0028,0.0331,0.0001
+Betweenness Centrality,0.01,Jaccard,0.351,0.365,0.014,0.3949,0.0299
+Betweenness Centrality,0.01,AdamicAdar,0.302,0.3146,0.0126,0.3502,0.0356
+Betweenness Centrality,0.05,CollaborativeFiltering,0.379,0.4492,0.0702,0.1821,-0.2671
+Betweenness Centrality,0.05,CommunityAware,0.1993,0.2246,0.0253,0.2438,0.0192
+Betweenness Centrality,0.05,Popularity,0.0302,0.0369,0.0067,0.037,0.0001
+Betweenness Centrality,0.05,Jaccard,0.351,0.3969,0.0459,0.1389,-0.258
+Betweenness Centrality,0.05,AdamicAdar,0.302,0.3446,0.0426,0.1389,-0.2057
+Betweenness Centrality,0.1,CollaborativeFiltering,0.379,0.8391,0.4601,0.1512,-0.6879
+Betweenness Centrality,0.1,CommunityAware,0.1993,0.3218,0.1225,0.0465,-0.2753
+Betweenness Centrality,0.1,Popularity,0.0302,0.0,-0.0302,0.0,0.0
+Betweenness Centrality,0.1,Jaccard,0.351,0.8391,0.4881,0.1512,-0.6879
+Betweenness Centrality,0.1,AdamicAdar,0.302,0.5747,0.2727,0.1512,-0.4235
+PageRank,0.01,CollaborativeFiltering,0.379,0.3762,-0.0028,0.3668,-0.0094
+PageRank,0.01,CommunityAware,0.1993,0.2026,0.0033,0.1961,-0.0065
+PageRank,0.01,Popularity,0.0302,0.0319,0.0017,0.0319,0.0
+PageRank,0.01,Jaccard,0.351,0.3494,-0.0016,0.3372,-0.0122
+PageRank,0.01,AdamicAdar,0.302,0.3063,0.0043,0.2847,-0.0216
+PageRank,0.05,CollaborativeFiltering,0.379,0.3565,-0.0225,0.3263,-0.0302
+PageRank,0.05,CommunityAware,0.1993,0.1902,-0.0091,0.2108,0.0206
+PageRank,0.05,Popularity,0.0302,0.0348,0.0046,0.0458,0.011
+PageRank,0.05,Jaccard,0.351,0.3299,-0.0211,0.3241,-0.0058
+PageRank,0.05,AdamicAdar,0.302,0.2973,-0.0047,0.2849,-0.0124
+PageRank,0.1,CollaborativeFiltering,0.379,0.3562,-0.0228,0.2235,-0.1327
+PageRank,0.1,CommunityAware,0.1993,0.1873,-0.012,0.1905,0.0032
+PageRank,0.1,Popularity,0.0302,0.0317,0.0015,0.0397,0.008
+PageRank,0.1,Jaccard,0.351,0.3298,-0.0212,0.2447,-0.0851
+PageRank,0.1,AdamicAdar,0.302,0.3034,0.0014,0.2381,-0.0653
+K-Core Centrality,0.01,CollaborativeFiltering,0.379,0.3466,-0.0324,0.321,-0.0256
+K-Core Centrality,0.01,CommunityAware,0.1993,0.1786,-0.0207,0.2782,0.0996
+K-Core Centrality,0.01,Popularity,0.0302,0.033,0.0028,0.0409,0.0079
+K-Core Centrality,0.01,Jaccard,0.351,0.3223,-0.0287,0.3482,0.0259
+K-Core Centrality,0.01,AdamicAdar,0.302,0.2777,-0.0243,0.3405,0.0628
+K-Core Centrality,0.05,CollaborativeFiltering,0.379,0.3169,-0.0621,0.0093,-0.3076
+K-Core Centrality,0.05,CommunityAware,0.1993,0.1385,-0.0608,0.0525,-0.086
+K-Core Centrality,0.05,Popularity,0.0302,0.0277,-0.0025,0.0432,0.0155
+K-Core Centrality,0.05,Jaccard,0.351,0.2862,-0.0648,0.0,-0.2862
+K-Core Centrality,0.05,AdamicAdar,0.302,0.24,-0.062,0.0,-0.24
+K-Core Centrality,0.1,CollaborativeFiltering,0.379,0.4253,0.0463,0.0,-0.4253
+K-Core Centrality,0.1,CommunityAware,0.1993,0.1494,-0.0499,0.0116,-0.1378
+K-Core Centrality,0.1,Popularity,0.0302,0.023,-0.0072,0.0116,-0.0114
+K-Core Centrality,0.1,Jaccard,0.351,0.2989,-0.0521,0.0,-0.2989
+K-Core Centrality,0.1,AdamicAdar,0.302,0.1494,-0.1526,0.0,-0.1494
+Weighted Degree,0.01,CollaborativeFiltering,0.379,0.3729,-0.0061,0.3589,-0.014
+Weighted Degree,0.01,CommunityAware,0.1993,0.1991,-0.0002,0.186,-0.0131
+Weighted Degree,0.01,Popularity,0.0302,0.0262,-0.004,0.0393,0.0131
+Weighted Degree,0.01,Jaccard,0.351,0.35,-0.001,0.3257,-0.0243
+Weighted Degree,0.01,AdamicAdar,0.302,0.3051,0.0031,0.2902,-0.0149
+Weighted Degree,0.05,CollaborativeFiltering,0.379,0.3617,-0.0173,0.3302,-0.0315
+Weighted Degree,0.05,CommunityAware,0.1993,0.1885,-0.0108,0.2162,0.0277
+Weighted Degree,0.05,Popularity,0.0302,0.0218,-0.0084,0.0153,-0.0065
+Weighted Degree,0.05,Jaccard,0.351,0.3393,-0.0117,0.2898,-0.0495
+Weighted Degree,0.05,AdamicAdar,0.302,0.3088,0.0068,0.2811,-0.0277
+Weighted Degree,0.1,CollaborativeFiltering,0.379,0.3577,-0.0213,0.2783,-0.0794
+Weighted Degree,0.1,CommunityAware,0.1993,0.1927,-0.0066,0.1738,-0.0189
+Weighted Degree,0.1,Popularity,0.0302,0.0202,-0.01,0.0076,-0.0126
+Weighted Degree,0.1,Jaccard,0.351,0.3394,-0.0116,0.284,-0.0554
+Weighted Degree,0.1,AdamicAdar,0.302,0.3218,0.0198,0.2764,-0.0454
+Random Removal (Mean),0.01,CollaborativeFiltering,0.379,0.3813,0.0023,0.3788,-0.0025
+Random Removal (Mean),0.01,CommunityAware,0.1993,0.1996,0.0003,0.1996,0.0
+Random Removal (Mean),0.01,Popularity,0.0302,0.0288,-0.0014,0.0353,0.0065
+Random Removal (Mean),0.01,Jaccard,0.351,0.3548,0.0038,0.3511,-0.0037
+Random Removal (Mean),0.01,AdamicAdar,0.302,0.3035,0.0015,0.3048,0.0013
+Random Removal (Mean),0.05,CollaborativeFiltering,0.379,0.3813,0.0023,0.3713,-0.01
+Random Removal (Mean),0.05,CommunityAware,0.1993,0.2019,0.0026,0.1974,-0.0045
+Random Removal (Mean),0.05,Popularity,0.0302,0.028,-0.0022,0.0376,0.0096
+Random Removal (Mean),0.05,Jaccard,0.351,0.3481,-0.0029,0.3539,0.0058
+Random Removal (Mean),0.05,AdamicAdar,0.302,0.3023,0.0003,0.3015,-0.0008
+Random Removal (Mean),0.1,CollaborativeFiltering,0.379,0.386,0.007,0.3469,-0.0391
+Random Removal (Mean),0.1,CommunityAware,0.1993,0.204,0.0047,0.2175,0.0135
+Random Removal (Mean),0.1,Popularity,0.0302,0.032,0.0018,0.0352,0.0032
+Random Removal (Mean),0.1,Jaccard,0.351,0.3545,0.0035,0.3283,-0.0262
+Random Removal (Mean),0.1,AdamicAdar,0.302,0.3115,0.0095,0.2917,-0.0198

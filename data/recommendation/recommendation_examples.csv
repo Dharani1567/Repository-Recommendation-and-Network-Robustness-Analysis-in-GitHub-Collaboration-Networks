@@ -1,0 +1,229 @@
+contributor_id,username,training_repositories,held_out_ground_truth,algorithm,rank,recommended_repo_name,score,is_hit
+449558,amueller,scikit-learn,scikit-image,Popularity Baseline,1,tensorflow/tensorflow,91092.0,False
+449558,amueller,scikit-learn,scikit-image,Popularity Baseline,2,duckdb/duckdb,69404.0,False
+449558,amueller,scikit-learn,scikit-image,Popularity Baseline,3,home-assistant/core,58351.0,False
+449558,amueller,scikit-learn,scikit-image,Popularity Baseline,4,grpc/grpc,47151.0,False
+449558,amueller,scikit-learn,scikit-image,Popularity Baseline,5,matplotlib/matplotlib,36755.0,False
+449558,amueller,scikit-learn,scikit-image,Leiden Community-Aware,1,matplotlib/matplotlib,63.0723,False
+449558,amueller,scikit-learn,scikit-image,Leiden Community-Aware,2,sympy/sympy,62.5734,False
+449558,amueller,scikit-learn,scikit-image,Leiden Community-Aware,3,pandas-dev/pandas,60.553,False
+449558,amueller,scikit-learn,scikit-image,Leiden Community-Aware,4,cupy/cupy,60.354,False
+449558,amueller,scikit-learn,scikit-image,Leiden Community-Aware,5,numba/numba,58.1599,False
+449558,amueller,scikit-learn,scikit-image,Collaborative Filtering,1,shapely/shapely,1.0000000530262262e+18,False
+449558,amueller,scikit-learn,scikit-image,Collaborative Filtering,2,mwaskom/seaborn,1.0000000530262262e+18,False
+449558,amueller,scikit-learn,scikit-image,Jaccard Similarity,1,MagicStack/asyncpg,0.2,False
+449558,amueller,scikit-learn,scikit-image,Jaccard Similarity,2,pyproj4/pyproj,0.1667,False
+449558,amueller,scikit-learn,scikit-image,Jaccard Similarity,3,plotly/plotly.py,0.125,False
+449558,amueller,scikit-learn,scikit-image,Jaccard Similarity,4,miguelgrinberg/Flask-SocketIO,0.1,False
+449558,amueller,scikit-learn,scikit-image,Jaccard Similarity,5,dask/dask,0.0833,False
+449558,amueller,scikit-learn,scikit-image,Adamic-Adar,1,plotly/plotly.py,0.5581,False
+449558,amueller,scikit-learn,scikit-image,Adamic-Adar,2,pydata/xarray,0.5581,False
+449558,amueller,scikit-learn,scikit-image,Adamic-Adar,3,dask/dask,0.5581,False
+449558,amueller,scikit-learn,scikit-image,Adamic-Adar,4,dask/distributed,0.5581,False
+449558,amueller,scikit-learn,scikit-image,Adamic-Adar,5,pyproj4/pyproj,0.5581,False
+449558,amueller,scikit-learn,scikit-image,Node2Vec Embeddings,1,scipy/scipy,0.5158,False
+449558,amueller,scikit-learn,scikit-image,Node2Vec Embeddings,2,chroma-core/chroma,0.5143,False
+449558,amueller,scikit-learn,scikit-image,Node2Vec Embeddings,3,twisted/twisted,0.5141,False
+449558,amueller,scikit-learn,scikit-image,Node2Vec Embeddings,4,scikit-image/scikit-image,0.5119,True
+449558,amueller,scikit-learn,scikit-image,Node2Vec Embeddings,5,cython/cython,0.5,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Popularity Baseline,1,tensorflow/tensorflow,91092.0,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Popularity Baseline,2,duckdb/duckdb,69404.0,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Popularity Baseline,3,home-assistant/core,58351.0,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Popularity Baseline,4,grpc/grpc,47151.0,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Popularity Baseline,5,matplotlib/matplotlib,36755.0,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Leiden Community-Aware,1,ipython/ipython,60.5073,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Leiden Community-Aware,2,jupyterlab/jupyterlab,56.9242,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Leiden Community-Aware,3,jupyter/notebook,55.1175,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Leiden Community-Aware,4,xonsh/xonsh,54.1988,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Leiden Community-Aware,5,streamlit/streamlit,54.1614,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Collaborative Filtering,1,jupyter/jupyter_core,3.0000001590786785e+18,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Collaborative Filtering,2,scikit-image/scikit-image,3.0000001590786785e+18,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Collaborative Filtering,3,jupyter/notebook,2.0000001060524524e+18,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Collaborative Filtering,4,networkx/networkx,2.0000001060524524e+18,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Collaborative Filtering,5,numpy/numpy,2.0000001060524524e+18,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Jaccard Similarity,1,scikit-image/scikit-image,0.8266,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Jaccard Similarity,2,xonsh/xonsh,0.697,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Jaccard Similarity,3,networkx/networkx,0.6333,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Jaccard Similarity,4,jupyter/jupyter_core,0.5434,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Jaccard Similarity,5,statsmodels/statsmodels,0.4994,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Adamic-Adar,1,jupyter/jupyter_core,5.497,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Adamic-Adar,2,scikit-image/scikit-image,3.9008,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Adamic-Adar,3,jupyter/notebook,3.5869,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Adamic-Adar,4,prompt-toolkit/python-prompt-toolkit,3.3357,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Adamic-Adar,5,dask/distributed,2.8184,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Node2Vec Embeddings,1,vllm-project/vllm,0.5479,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Node2Vec Embeddings,2,scikit-image/scikit-image,0.511,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Node2Vec Embeddings,3,scikit-learn/scikit-learn,0.5103,True
+335383,larsmans,nltk; cython; scipy,scikit-learn,Node2Vec Embeddings,4,numpy/numpy,0.5041,False
+335383,larsmans,nltk; cython; scipy,scikit-learn,Node2Vec Embeddings,5,oobabooga/textgen,0.4972,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Popularity Baseline,1,tensorflow/tensorflow,91092.0,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Popularity Baseline,2,duckdb/duckdb,69404.0,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Popularity Baseline,3,home-assistant/core,58351.0,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Popularity Baseline,4,grpc/grpc,47151.0,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Popularity Baseline,5,matplotlib/matplotlib,36755.0,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Leiden Community-Aware,1,matplotlib/matplotlib,63.0723,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Leiden Community-Aware,2,sympy/sympy,62.5734,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Leiden Community-Aware,3,pandas-dev/pandas,60.553,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Leiden Community-Aware,4,cupy/cupy,60.354,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Leiden Community-Aware,5,numba/numba,58.1599,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Collaborative Filtering,1,shapely/shapely,1.0000000530262262e+18,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Collaborative Filtering,2,mwaskom/seaborn,1.0000000530262262e+18,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Jaccard Similarity,1,MagicStack/asyncpg,0.2,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Jaccard Similarity,2,pyproj4/pyproj,0.1667,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Jaccard Similarity,3,plotly/plotly.py,0.125,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Jaccard Similarity,4,miguelgrinberg/Flask-SocketIO,0.1,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Jaccard Similarity,5,dask/dask,0.0833,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Adamic-Adar,1,plotly/plotly.py,0.5581,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Adamic-Adar,2,pydata/xarray,0.5581,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Adamic-Adar,3,dask/dask,0.5581,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Adamic-Adar,4,dask/distributed,0.5581,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Adamic-Adar,5,pyproj4/pyproj,0.5581,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Node2Vec Embeddings,1,aws/aws-cli,0.5325,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Node2Vec Embeddings,2,scikit-image/scikit-image,0.5191,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Node2Vec Embeddings,3,scipy/scipy,0.508,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Node2Vec Embeddings,4,dagster-io/dagster,0.5026,False
+5402633,thomasjpfan,scikit-learn,LightGBM,Node2Vec Embeddings,5,NVIDIA/cuml,0.5016,False
+78827,jnothman,scikit-learn,nltk,Popularity Baseline,1,tensorflow/tensorflow,91092.0,False
+78827,jnothman,scikit-learn,nltk,Popularity Baseline,2,duckdb/duckdb,69404.0,False
+78827,jnothman,scikit-learn,nltk,Popularity Baseline,3,home-assistant/core,58351.0,False
+78827,jnothman,scikit-learn,nltk,Popularity Baseline,4,grpc/grpc,47151.0,False
+78827,jnothman,scikit-learn,nltk,Popularity Baseline,5,matplotlib/matplotlib,36755.0,False
+78827,jnothman,scikit-learn,nltk,Leiden Community-Aware,1,matplotlib/matplotlib,63.0723,False
+78827,jnothman,scikit-learn,nltk,Leiden Community-Aware,2,sympy/sympy,62.5734,False
+78827,jnothman,scikit-learn,nltk,Leiden Community-Aware,3,pandas-dev/pandas,60.553,False
+78827,jnothman,scikit-learn,nltk,Leiden Community-Aware,4,cupy/cupy,60.354,False
+78827,jnothman,scikit-learn,nltk,Leiden Community-Aware,5,numba/numba,58.1599,False
+78827,jnothman,scikit-learn,nltk,Collaborative Filtering,1,shapely/shapely,1.0000000530262262e+18,False
+78827,jnothman,scikit-learn,nltk,Collaborative Filtering,2,mwaskom/seaborn,1.0000000530262262e+18,False
+78827,jnothman,scikit-learn,nltk,Jaccard Similarity,1,MagicStack/asyncpg,0.2,False
+78827,jnothman,scikit-learn,nltk,Jaccard Similarity,2,pyproj4/pyproj,0.1667,False
+78827,jnothman,scikit-learn,nltk,Jaccard Similarity,3,plotly/plotly.py,0.125,False
+78827,jnothman,scikit-learn,nltk,Jaccard Similarity,4,miguelgrinberg/Flask-SocketIO,0.1,False
+78827,jnothman,scikit-learn,nltk,Jaccard Similarity,5,dask/dask,0.0833,False
+78827,jnothman,scikit-learn,nltk,Adamic-Adar,1,plotly/plotly.py,0.5581,False
+78827,jnothman,scikit-learn,nltk,Adamic-Adar,2,pydata/xarray,0.5581,False
+78827,jnothman,scikit-learn,nltk,Adamic-Adar,3,dask/dask,0.5581,False
+78827,jnothman,scikit-learn,nltk,Adamic-Adar,4,dask/distributed,0.5581,False
+78827,jnothman,scikit-learn,nltk,Adamic-Adar,5,pyproj4/pyproj,0.5581,False
+78827,jnothman,scikit-learn,nltk,Node2Vec Embeddings,1,aws/aws-cli,0.5518,False
+78827,jnothman,scikit-learn,nltk,Node2Vec Embeddings,2,scikit-image/scikit-image,0.5463,False
+78827,jnothman,scikit-learn,nltk,Node2Vec Embeddings,3,scipy/scipy,0.5161,False
+78827,jnothman,scikit-learn,nltk,Node2Vec Embeddings,4,Textualize/textual,0.51,False
+78827,jnothman,scikit-learn,nltk,Node2Vec Embeddings,5,chroma-core/chroma,0.5068,False
+7454015,glemaitre,scikit-image,scikit-learn,Popularity Baseline,1,tensorflow/tensorflow,91092.0,False
+7454015,glemaitre,scikit-image,scikit-learn,Popularity Baseline,2,duckdb/duckdb,69404.0,False
+7454015,glemaitre,scikit-image,scikit-learn,Popularity Baseline,3,home-assistant/core,58351.0,False
+7454015,glemaitre,scikit-image,scikit-learn,Popularity Baseline,4,grpc/grpc,47151.0,False
+7454015,glemaitre,scikit-image,scikit-learn,Popularity Baseline,5,matplotlib/matplotlib,36755.0,False
+7454015,glemaitre,scikit-image,scikit-learn,Leiden Community-Aware,1,ipython/ipython,60.5073,False
+7454015,glemaitre,scikit-image,scikit-learn,Leiden Community-Aware,2,scipy/scipy,58.9164,False
+7454015,glemaitre,scikit-image,scikit-learn,Leiden Community-Aware,3,cython/cython,58.488,False
+7454015,glemaitre,scikit-image,scikit-learn,Leiden Community-Aware,4,jupyterlab/jupyterlab,56.9242,False
+7454015,glemaitre,scikit-image,scikit-learn,Leiden Community-Aware,5,nltk/nltk,55.3051,False
+7454015,glemaitre,scikit-image,scikit-learn,Collaborative Filtering,1,scipy/scipy,2.0000001060524524e+18,False
+7454015,glemaitre,scikit-image,scikit-learn,Collaborative Filtering,2,networkx/networkx,2.0000001060524524e+18,False
+7454015,glemaitre,scikit-image,scikit-learn,Collaborative Filtering,3,Kludex/uvicorn,1.0000000530262262e+18,False
+7454015,glemaitre,scikit-image,scikit-learn,Collaborative Filtering,4,jupyter/jupyter_core,1.0000000530262262e+18,False
+7454015,glemaitre,scikit-image,scikit-learn,Collaborative Filtering,5,cython/cython,1.0000000530262262e+18,False
+7454015,glemaitre,scikit-image,scikit-learn,Jaccard Similarity,1,nltk/nltk,0.4,False
+7454015,glemaitre,scikit-image,scikit-learn,Jaccard Similarity,2,scipy/scipy,0.2727,False
+7454015,glemaitre,scikit-image,scikit-learn,Jaccard Similarity,3,xonsh/xonsh,0.25,False
+7454015,glemaitre,scikit-image,scikit-learn,Jaccard Similarity,4,statsmodels/statsmodels,0.2,False
+7454015,glemaitre,scikit-image,scikit-learn,Jaccard Similarity,5,networkx/networkx,0.1667,False
+7454015,glemaitre,scikit-image,scikit-learn,Adamic-Adar,1,scipy/scipy,2.2166,False
+7454015,glemaitre,scikit-image,scikit-learn,Adamic-Adar,2,dask/distributed,1.1269,False
+7454015,glemaitre,scikit-image,scikit-learn,Adamic-Adar,3,nltk/nltk,0.8894,False
+7454015,glemaitre,scikit-image,scikit-learn,Adamic-Adar,4,jupyter/jupyter_core,0.8894,False
+7454015,glemaitre,scikit-image,scikit-learn,Adamic-Adar,5,statsmodels/statsmodels,0.7947,False
+7454015,glemaitre,scikit-image,scikit-learn,Node2Vec Embeddings,1,weasyprint/weasyprint,0.5033,False
+7454015,glemaitre,scikit-image,scikit-learn,Node2Vec Embeddings,2,hiyouga/LlamaFactory,0.4924,False
+7454015,glemaitre,scikit-image,scikit-learn,Node2Vec Embeddings,3,networkx/networkx,0.4782,False
+7454015,glemaitre,scikit-image,scikit-learn,Node2Vec Embeddings,4,pydata/xarray,0.4725,False
+7454015,glemaitre,scikit-image,scikit-learn,Node2Vec Embeddings,5,marshmallow-code/apispec,0.4721,False
+1680079,lesteve,scikit-learn,distributed,Popularity Baseline,1,tensorflow/tensorflow,91092.0,False
+1680079,lesteve,scikit-learn,distributed,Popularity Baseline,2,duckdb/duckdb,69404.0,False
+1680079,lesteve,scikit-learn,distributed,Popularity Baseline,3,home-assistant/core,58351.0,False
+1680079,lesteve,scikit-learn,distributed,Popularity Baseline,4,grpc/grpc,47151.0,False
+1680079,lesteve,scikit-learn,distributed,Popularity Baseline,5,matplotlib/matplotlib,36755.0,False
+1680079,lesteve,scikit-learn,distributed,Leiden Community-Aware,1,matplotlib/matplotlib,63.0723,False
+1680079,lesteve,scikit-learn,distributed,Leiden Community-Aware,2,sympy/sympy,62.5734,False
+1680079,lesteve,scikit-learn,distributed,Leiden Community-Aware,3,pandas-dev/pandas,60.553,False
+1680079,lesteve,scikit-learn,distributed,Leiden Community-Aware,4,cupy/cupy,60.354,False
+1680079,lesteve,scikit-learn,distributed,Leiden Community-Aware,5,numba/numba,58.1599,False
+1680079,lesteve,scikit-learn,distributed,Collaborative Filtering,1,shapely/shapely,1.0000000530262262e+18,False
+1680079,lesteve,scikit-learn,distributed,Collaborative Filtering,2,mwaskom/seaborn,1.0000000530262262e+18,False
+1680079,lesteve,scikit-learn,distributed,Jaccard Similarity,1,MagicStack/asyncpg,0.2,False
+1680079,lesteve,scikit-learn,distributed,Jaccard Similarity,2,pyproj4/pyproj,0.1667,False
+1680079,lesteve,scikit-learn,distributed,Jaccard Similarity,3,plotly/plotly.py,0.125,False
+1680079,lesteve,scikit-learn,distributed,Jaccard Similarity,4,miguelgrinberg/Flask-SocketIO,0.1,False
+1680079,lesteve,scikit-learn,distributed,Jaccard Similarity,5,dask/dask,0.0833,False
+1680079,lesteve,scikit-learn,distributed,Adamic-Adar,1,plotly/plotly.py,0.5581,False
+1680079,lesteve,scikit-learn,distributed,Adamic-Adar,2,pydata/xarray,0.5581,False
+1680079,lesteve,scikit-learn,distributed,Adamic-Adar,3,dask/dask,0.5581,False
+1680079,lesteve,scikit-learn,distributed,Adamic-Adar,4,dask/distributed,0.5581,True
+1680079,lesteve,scikit-learn,distributed,Adamic-Adar,5,pyproj4/pyproj,0.5581,False
+1680079,lesteve,scikit-learn,distributed,Node2Vec Embeddings,1,twisted/twisted,0.568,False
+1680079,lesteve,scikit-learn,distributed,Node2Vec Embeddings,2,aws/aws-cli,0.5616,False
+1680079,lesteve,scikit-learn,distributed,Node2Vec Embeddings,3,authlib/authlib,0.5228,False
+1680079,lesteve,scikit-learn,distributed,Node2Vec Embeddings,4,ray-project/ray,0.4947,False
+1680079,lesteve,scikit-learn,distributed,Node2Vec Embeddings,5,cython/cython,0.487,False
+781659,jakevdp,seaborn; scikit-learn,altair,Popularity Baseline,1,tensorflow/tensorflow,91092.0,False
+781659,jakevdp,seaborn; scikit-learn,altair,Popularity Baseline,2,duckdb/duckdb,69404.0,False
+781659,jakevdp,seaborn; scikit-learn,altair,Popularity Baseline,3,home-assistant/core,58351.0,False
+781659,jakevdp,seaborn; scikit-learn,altair,Popularity Baseline,4,grpc/grpc,47151.0,False
+781659,jakevdp,seaborn; scikit-learn,altair,Popularity Baseline,5,matplotlib/matplotlib,36755.0,False
+781659,jakevdp,seaborn; scikit-learn,altair,Leiden Community-Aware,1,matplotlib/matplotlib,63.0723,False
+781659,jakevdp,seaborn; scikit-learn,altair,Leiden Community-Aware,2,sympy/sympy,62.5734,False
+781659,jakevdp,seaborn; scikit-learn,altair,Leiden Community-Aware,3,pandas-dev/pandas,60.553,False
+781659,jakevdp,seaborn; scikit-learn,altair,Leiden Community-Aware,4,cupy/cupy,60.354,False
+781659,jakevdp,seaborn; scikit-learn,altair,Leiden Community-Aware,5,numba/numba,58.1599,False
+781659,jakevdp,seaborn; scikit-learn,altair,Collaborative Filtering,1,pymc-devs/pymc,1.0000000530262262e+18,False
+781659,jakevdp,seaborn; scikit-learn,altair,Collaborative Filtering,2,shapely/shapely,1.0000000530262262e+18,False
+781659,jakevdp,seaborn; scikit-learn,altair,Collaborative Filtering,3,dask/dask,1.0000000530262262e+18,False
+781659,jakevdp,seaborn; scikit-learn,altair,Collaborative Filtering,4,pydata/xarray,1.0000000530262262e+18,False
+781659,jakevdp,seaborn; scikit-learn,altair,Collaborative Filtering,5,plotly/plotly.py,1.0000000530262262e+18,False
+781659,jakevdp,seaborn; scikit-learn,altair,Jaccard Similarity,1,bokeh/bokeh,0.3333,False
+781659,jakevdp,seaborn; scikit-learn,altair,Jaccard Similarity,2,pandas-dev/pandas,0.2667,False
+781659,jakevdp,seaborn; scikit-learn,altair,Jaccard Similarity,3,dask/dask,0.2167,False
+781659,jakevdp,seaborn; scikit-learn,altair,Jaccard Similarity,4,plotly/plotly.py,0.2083,False
+781659,jakevdp,seaborn; scikit-learn,altair,Jaccard Similarity,5,MagicStack/asyncpg,0.2,False
+781659,jakevdp,seaborn; scikit-learn,altair,Adamic-Adar,1,pandas-dev/pandas,1.6705,False
+781659,jakevdp,seaborn; scikit-learn,altair,Adamic-Adar,2,shapely/shapely,1.4427,False
+781659,jakevdp,seaborn; scikit-learn,altair,Adamic-Adar,3,dask/dask,1.3212,False
+781659,jakevdp,seaborn; scikit-learn,altair,Adamic-Adar,4,jupyter/notebook,1.1566,False
+781659,jakevdp,seaborn; scikit-learn,altair,Adamic-Adar,5,pymc-devs/pymc,1.072,False
+781659,jakevdp,seaborn; scikit-learn,altair,Node2Vec Embeddings,1,twisted/twisted,0.5264,False
+781659,jakevdp,seaborn; scikit-learn,altair,Node2Vec Embeddings,2,cython/cython,0.512,False
+781659,jakevdp,seaborn; scikit-learn,altair,Node2Vec Embeddings,3,mongodb/mongo-python-driver,0.4958,False
+781659,jakevdp,seaborn; scikit-learn,altair,Node2Vec Embeddings,4,Textualize/textual,0.4872,False
+781659,jakevdp,seaborn; scikit-learn,altair,Node2Vec Embeddings,5,fivetran/great_expectations,0.4872,False
+1190450,NicolasHug,vision; audio,scikit-learn,Popularity Baseline,1,tensorflow/tensorflow,91092.0,False
+1190450,NicolasHug,vision; audio,scikit-learn,Popularity Baseline,2,duckdb/duckdb,69404.0,False
+1190450,NicolasHug,vision; audio,scikit-learn,Popularity Baseline,3,home-assistant/core,58351.0,False
+1190450,NicolasHug,vision; audio,scikit-learn,Popularity Baseline,4,grpc/grpc,47151.0,False
+1190450,NicolasHug,vision; audio,scikit-learn,Popularity Baseline,5,matplotlib/matplotlib,36755.0,False
+1190450,NicolasHug,vision; audio,scikit-learn,Leiden Community-Aware,1,home-assistant/core,65.8455,False
+1190450,NicolasHug,vision; audio,scikit-learn,Leiden Community-Aware,2,pytorch/pytorch,61.7174,False
+1190450,NicolasHug,vision; audio,scikit-learn,Leiden Community-Aware,3,numpy/numpy,60.8002,False
+1190450,NicolasHug,vision; audio,scikit-learn,Leiden Community-Aware,4,apache/airflow,60.3045,False
+1190450,NicolasHug,vision; audio,scikit-learn,Leiden Community-Aware,5,pypa/setuptools,56.4895,False
+1190450,NicolasHug,vision; audio,scikit-learn,Collaborative Filtering,1,numpy/numpy,2.0000001060524524e+18,False
+1190450,NicolasHug,vision; audio,scikit-learn,Collaborative Filtering,2,pytorch/pytorch,2.0000001060524524e+18,False
+1190450,NicolasHug,vision; audio,scikit-learn,Collaborative Filtering,3,scipy/scipy,1.0000000530262262e+18,False
+1190450,NicolasHug,vision; audio,scikit-learn,Collaborative Filtering,4,modin-project/modin,1.0000000530262262e+18,False
+1190450,NicolasHug,vision; audio,scikit-learn,Collaborative Filtering,5,pypa/virtualenv,1.0000000530262262e+18,False
+1190450,NicolasHug,vision; audio,scikit-learn,Jaccard Similarity,1,pytorch/pytorch,0.5,False
+1190450,NicolasHug,vision; audio,scikit-learn,Jaccard Similarity,2,ray-project/ray,0.5,False
+1190450,NicolasHug,vision; audio,scikit-learn,Jaccard Similarity,3,numpy/numpy,0.2292,False
+1190450,NicolasHug,vision; audio,scikit-learn,Jaccard Similarity,4,scipy/scipy,0.1714,False
+1190450,NicolasHug,vision; audio,scikit-learn,Jaccard Similarity,5,vaexio/vaex,0.1667,False
+1190450,NicolasHug,vision; audio,scikit-learn,Adamic-Adar,1,numpy/numpy,1.6306,False
+1190450,NicolasHug,vision; audio,scikit-learn,Adamic-Adar,2,modin-project/modin,1.4427,False
+1190450,NicolasHug,vision; audio,scikit-learn,Adamic-Adar,3,pypa/wheel,1.2612,False
+1190450,NicolasHug,vision; audio,scikit-learn,Adamic-Adar,4,pypa/virtualenv,1.211,False
+1190450,NicolasHug,vision; audio,scikit-learn,Adamic-Adar,5,pypa/build,0.9867,False
+1190450,NicolasHug,vision; audio,scikit-learn,Node2Vec Embeddings,1,astral-sh/ruff,0.5596,False
+1190450,NicolasHug,vision; audio,scikit-learn,Node2Vec Embeddings,2,facebookresearch/detectron2,0.5164,False
+1190450,NicolasHug,vision; audio,scikit-learn,Node2Vec Embeddings,3,pytorch/pytorch,0.5036,False
+1190450,NicolasHug,vision; audio,scikit-learn,Node2Vec Embeddings,4,jupyterlab/jupyterlab,0.4994,False
+1190450,NicolasHug,vision; audio,scikit-learn,Node2Vec Embeddings,5,falconry/falcon,0.4931,False

@@ -1,0 +1,48 @@
+{
+  "project_title": "Community-Aware Repository Recommendation and Network-Robustness Analysis in GitHub Collaboration Networks",
+  "synthesis_timestamp": "2026-10-25T01:05:00Z",
+  "verified_network_statistics": {
+    "contributors": 4759,
+    "repositories": 206,
+    "collaboration_edges": 5758,
+    "projection_edges": 1353,
+    "isolated_repositories": 12,
+    "evaluated_contributors": 562,
+    "single_repo_contributors": 4197,
+    "single_repo_percentage": 88.19
+  },
+  "recommendation_benchmark_summary": {
+    "top_performer": "Collaborative Filtering (Recall@10: 37.90%, NDCG@10: 0.2589)",
+    "highest_coverage": "Node2Vec Embeddings (Coverage: 100.0%, Diversity: 0.4984)",
+    "community_aware": "Leiden Community-Aware (Recall@10: 19.93%, NDCG@10: 0.0885)",
+    "popularity_baseline": "Popularity Baseline (Recall@10: 3.02%, NDCG@10: 0.0110)"
+  },
+  "community_detection_summary": {
+    "selected_algorithm": "Leiden",
+    "leiden_communities": 10,
+    "leiden_modularity": 0.4643,
+    "louvain_communities": 9,
+    "louvain_modularity": 0.467,
+    "stability_ari_5seeds": 0.7826,
+    "cross_algorithm_ari": 0.6531
+  },
+  "contributor_influence_summary": {
+    "global_spearman_rho_degree_betweenness": 0.9978,
+    "multi_repo_spearman_rho_degree_betweenness": 0.5245,
+    "multi_repo_spearman_rho_betweenness_kcore": 0.3454,
+    "multi_repo_spearman_rho_pagerank_betweenness": 0.2517,
+    "cross_community_contributors": 203,
+    "cross_community_percentage": 4.27
+  },
+  "network_robustness_summary": {
+    "most_damaging_structural_attack": "Betweenness Centrality (GCC reduces to 1.70% at 10% removal, 171 components)",
+    "degree_attack_at_10pct": "GCC reduces to 18.94% (868 nodes), 132 components",
+    "random_removal_at_10pct": "GCC remains 91.30% (4,131 nodes), 15.7 components",
+    "apl_paradox_resolution": "APL decrease under severe GCC collapse is condensation/fragmentation, not improved transit."
+  },
+  "recommendation_robustness_summary": {
+    "cf_collapse_at_5pct_degree": "Recall@10 drops from 37.90% to 0.00% due to complete elimination of multi-repo developers in training graph (co-occurrence matrix = 0).",
+    "community_aware_resilience": "Leiden Community-Aware retains 3.09% Recall@10 at 5% degree removal and 4.65% at 10% betweenness removal because community partition remains valid.",
+    "matched_baseline_necessity": "Survivor cohorts possess different baseline propensities; matched baselines provide unbiased true degradation."
+  }
+}

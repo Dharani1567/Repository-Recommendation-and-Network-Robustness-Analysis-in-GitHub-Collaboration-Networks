@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "total_nodes": 4965,
+    "contributor_nodes": 4759,
+    "repository_nodes": 206,
+    "total_edges": 5758,
+    "bipartite_density": 0.005873,
+    "connected_components_count": 14,
+    "largest_connected_component_nodes": 4584,
+    "largest_connected_component_fraction": 0.9233,
+    "top_5_component_sizes": [
+      4584,
+      59,
+      31,
+      31,
+      31
+    ]
+  },
+  "contributor_degree_distribution": {
+    "min": 1,
+    "max": 18,
+    "mean": 1.2099180500105065,
+    "median": 1.0,
+    "std": 0.8103776197175516,
+    "p25": 1.0,
+    "p75": 1.0,
+    "p90": 2.0,
+    "single_repo_contributors": 4197,
+    "multi_repo_contributors": 562,
+    "multi_repo_percentage": 11.81
+  },
+  "repository_degree_distribution": {
+    "min": 1,
+    "max": 30,
+    "mean": 27.95145631067961,
+    "median": 29.0,
+    "std": 3.981458582261782,
+    "p25": 28.0,
+    "p75": 30.0,
+    "p90": 30.0
+  },
+  "repository_projection": {
+    "projection_nodes": 206,
+    "projection_edges": 1353,
+    "projection_connected_components": 14
+  }
+}
